@@ -1,0 +1,12 @@
+---
+title: "Publications"
+bibliography: publications.bib
+csl: apa.csl
+nocite: |
+  @*
+---
+
+Peer-reviewed articles and reports. Full list and citation metrics on [Google Scholar](https://scholar.google.com/citations?user=Dro7j-8AAAAJ&hl=en).
+
+::: {#refs}
+:::

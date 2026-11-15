@@ -1,0 +1,43 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero}
+# Michael Premer
+[Assistant Professor of Forest Management · School of Forest Resources, University of Maine]{.lead}
+:::
+
+I lead the [Maine Forest Management Laboratory](https://maineforestlab.com), where we combine remote sensing, data science, and operational research to support forest management in a changing Acadian forest. This site collects my open-source software, data tools, and publications.
+
+**Research themes**
+
+- Digital soil, site, and vegetation mapping
+- Uneven-aged, mixed-species management
+- Restoration and adaptive tending strategies
+- Diversification of forested stands, goods, and products
+- Decision support tools and interdisciplinary collaboration
+
+**Featured tools**
+
+```{=html}
+<div class="repo-grid">
+  <div class="repo-card">
+    <h4><a href="https://github.com/piketremor/MEForLab">MEForLab</a></h4>
+    <p>R package of forestry functions from the Maine Forest Management Lab — inventory, growth, and stand metrics.</p>
+    <div class="repo-meta"><span>R package</span></div>
+  </div>
+  <div class="repo-card">
+    <h4><a href="https://glc5xc-mike-premer.shinyapps.io/forestinv/">forestinv</a></h4>
+    <p>Shiny app for field inventory: BAPA and TPA from plot tallies. Used by students in SFR 408/509.</p>
+    <div class="repo-meta"><span>Shiny app</span></div>
+  </div>
+  <div class="repo-card">
+    <h4><a href="https://github.com/piketremor/GreenTimbMerch">GreenTimbMerch</a></h4>
+    <p>Kozak taper-based merchandising for Northeastern / Acadian species.</p>
+    <div class="repo-meta"><span>R package</span></div>
+  </div>
+</div>
+```
+
+[See all software →](software.qmd) · [Publications →](publications.qmd)

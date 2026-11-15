@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+$primary: #2f5233;      // forest green
+$secondary: #6b7f5e;
+$link-color: #2f6b3a;
+$navbar-bg: #1f3a24;
+$navbar-fg: #ffffff;
+$font-family-sans-serif: "Source Sans Pro", -apple-system, "Segoe UI", Roboto, sans-serif;
+
+/*-- scss:rules --*/
+.hero { padding: 1.5rem 0 0.5rem; }
+.hero h1 { font-weight: 700; margin-bottom: .25rem; }
+.hero .lead { color: $secondary; }
+.repo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.repo-card { border: 1px solid #dfe5da; border-radius: 8px; padding: 1rem; background: #fbfcfa; }
+.repo-card h4 { margin: 0 0 .35rem; font-size: 1.05rem; }
+.repo-card p { font-size: .92rem; margin: 0 0 .5rem; color: #444; }
+.repo-meta { font-size: .8rem; color: #6c757d; }
+.repo-meta span { margin-right: .8rem; }
+#csl-bib-container .csl-entry, .references .csl-entry { margin-bottom: .8rem; }

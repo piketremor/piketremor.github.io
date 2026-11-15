@@ -1,0 +1,42 @@
+---
+title: "Software"
+---
+
+Open-source tools from my lab. Featured projects are curated below; the full list updates automatically from [GitHub](https://github.com/piketremor).
+
+## Featured
+
+| Project | Type | Description |
+|---|---|---|
+| [MEForLab](https://github.com/piketremor/MEForLab) | R package | Lab forestry functions — inventory, growth, and stand metrics |
+| [GreenTimbMerch](https://github.com/piketremor/GreenTimbMerch) | R package | Kozak taper merchandising for NE/Acadian species |
+| [forestinv](https://glc5xc-mike-premer.shinyapps.io/forestinv/) | Shiny app | Field inventory: BAPA and TPA from plot tallies |
+
+## All public repositories
+
+```{=html}
+<div id="repo-list" class="repo-grid"><p>Loading repositories…</p></div>
+<script>
+(async () => {
+  const el = document.getElementById('repo-list');
+  const esc = s => (s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  try {
+    const r = await fetch('https://api.github.com/users/piketremor/repos?per_page=100&sort=pushed');
+    if (!r.ok) throw new Error(r.status);
+    const repos = (await r.json()).filter(x => !x.fork && !x.archived && x.name !== 'piketremor.github.io');
+    el.innerHTML = repos.map(x => `
+      <div class="repo-card">
+        <h4><a href="${x.html_url}">${esc(x.name)}</a></h4>
+        <p>${esc(x.description) || '<em>No description</em>'}</p>
+        <div class="repo-meta">
+          ${x.language ? `<span>${esc(x.language)}</span>` : ''}
+          ${x.stargazers_count ? `<span>★ ${x.stargazers_count}</span>` : ''}
+          <span>Updated ${new Date(x.pushed_at).toLocaleDateString()}</span>
+        </div>
+      </div>`).join('') || '<p>No public repositories found.</p>';
+  } catch (e) {
+    el.innerHTML = '<p>Couldn\'t load repositories. <a href="https://github.com/piketremor?tab=repositories">View them on GitHub</a>.</p>';
+  }
+})();
+</script>
+```
