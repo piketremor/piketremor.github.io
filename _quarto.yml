@@ -5,7 +5,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Mike Premer"
+  title: "Forest Management Laboratory"
   site-url: https://piketremor.github.io
   description: "Forest management, silviculture, and open-source forestry tools — University of Maine."
   navbar:

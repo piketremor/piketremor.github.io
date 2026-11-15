@@ -13,7 +13,7 @@ page-layout: full
 :::
 ::: {.hero-text}
 # Mike Premer
-[Assistant Professor of Forest Management · School of Forest Resources, University of Maine]{.lead}
+[Assistant Professor of Silviculture and Forest Management · School of Forest Resources, University of Maine]{.lead}
 
 I lead the [Maine Forest Management Laboratory](https://maineforestlab.com), where we combine remote sensing, data science, and operational research to support forest management in a changing Acadian forest. This site collects my open-source software, data tools, and publications.
 :::

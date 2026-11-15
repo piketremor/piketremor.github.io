@@ -8,5 +8,10 @@ title: "In the field"
   <a href="assets/img/conifer-stand.jpg"><img src="assets/img/conifer-stand.jpg" alt="Tall conifers over a dense regenerating understory" loading="lazy"></a>
   <a href="assets/img/mountain-view.jpg"><img src="assets/img/mountain-view.jpg" alt="Mountain view over regenerating forest in fall" loading="lazy"></a>
   <a href="assets/img/northern-hardwoods.jpg"><img src="assets/img/northern-hardwoods.jpg" alt="Northern hardwood stand with birch in fall color" loading="lazy"></a>
+  <a href="assets/img/mountain-ridge.jpg"><img src="assets/img/mountain-ridge.jpg" alt="View of a rocky mountain ridge from a granite summit" loading="lazy"></a>
+  <a href="assets/img/log-landing.jpg"><img src="assets/img/log-landing.jpg" alt="Pulpwood and logs stacked at a landing" loading="lazy"></a>
+  <a href="assets/img/spruce-plantation.jpg"><img src="assets/img/spruce-plantation.jpg" alt="Young planted spruce among orange hawkweed and slash" loading="lazy"></a>
+  <a href="assets/img/haul-road.jpg"><img src="assets/img/haul-road.jpg" alt="Gravel haul road through a spruce-fir forest in fall" loading="lazy"></a>
+  <a href="assets/img/thinned-stand.jpg"><img src="assets/img/thinned-stand.jpg" alt="Thinned conifer stand with marked trees and blue sky" loading="lazy"></a>
 </div>
 ```
