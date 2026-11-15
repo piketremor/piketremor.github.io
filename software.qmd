@@ -4,13 +4,45 @@ title: "Software"
 
 Open-source tools from my lab. Featured projects are curated below; the full list updates automatically from [GitHub](https://github.com/piketremor).
 
-## Featured
+## R packages
 
 | Project | Type | Description |
 |---|---|---|
 | [MEForLab](https://github.com/piketremor/MEForLab) | R package | Lab forestry functions — inventory, growth, and stand metrics |
-| [GreenTimbMerch](https://github.com/piketremor/GreenTimbMerch) | R package | Kozak taper merchandising for NE/Acadian species |
-| [forestinv](https://glc5xc-mike-premer.shinyapps.io/forestinv/) | Shiny app | Field inventory: BAPA and TPA from plot tallies |
+
+## Shiny apps
+
+Interactive tools hosted on shinyapps.io. Apps sleep when idle; first load can take ~20 seconds.
+
+```{=html}
+<div class="repo-grid">
+  <div class="repo-card">
+    <h4><a href="https://glc5xc-mike-premer.shinyapps.io/forestinv/">forestinv</a></h4>
+    <p>Field inventory calculator: basal area (BAPA) and trees per acre (TPA) from plot tallies. Used by SFR 408/509 students.</p>
+    <div class="repo-meta"><span>Shiny app</span></div>
+  </div>
+  <div class="repo-card">
+    <h4><a href="https://glc5xc-mike-premer.shinyapps.io/cpmark/">CrownPrint Marking Calculator</a></h4>
+    <p>Marking guide built on CrownPrint: detects canopy strata from plot tallies and sets residual basal area targets.</p>
+    <div class="repo-meta"><span>Shiny app</span></div>
+  </div>
+  <div class="repo-card">
+    <h4><a href="https://glc5xc-mike-premer.shinyapps.io/Silv/">Single-Tree Selection Marking Guide</a></h4>
+    <p>Coefficient-k marking guide: enter DBHs, get diameter distribution, class summary, and marking targets.</p>
+    <div class="repo-meta"><span>Shiny app</span></div>
+  </div>
+  <div class="repo-card">
+    <h4><a href="https://glc5xc-mike-premer.shinyapps.io/ctrn/">Commercial Thinning Support Tool</a></h4>
+    <p>CFRU decision-support prototype for Maine spruce-fir: pick a location, enter stand conditions, and compare thinning prescriptions against no action.</p>
+    <div class="repo-meta"><span>Shiny app</span></div>
+  </div>
+  <div class="repo-card">
+    <h4><a href="https://glc5xc-mike-premer.shinyapps.io/AFM_Demo/">Maine-DSM Pilot</a></h4>
+    <p>Map viewer for Maine digital soil mapping layers: terrain, climate, soil, and wetness rasters.</p>
+    <div class="repo-meta"><span>Shiny app</span></div>
+  </div>
+</div>
+```
 
 ## All public repositories
 

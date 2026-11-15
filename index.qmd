@@ -4,7 +4,7 @@ page-layout: full
 ---
 
 ::: {.hero}
-# Michael Premer
+# Mike Premer
 [Assistant Professor of Forest Management · School of Forest Resources, University of Maine]{.lead}
 :::
 
@@ -33,9 +33,14 @@ I lead the [Maine Forest Management Laboratory](https://maineforestlab.com), whe
     <div class="repo-meta"><span>Shiny app</span></div>
   </div>
   <div class="repo-card">
-    <h4><a href="https://github.com/piketremor/GreenTimbMerch">GreenTimbMerch</a></h4>
-    <p>Kozak taper-based merchandising for Northeastern / Acadian species.</p>
-    <div class="repo-meta"><span>R package</span></div>
+    <h4><a href="https://glc5xc-mike-premer.shinyapps.io/cpmark/">CrownPrint Marking Calculator</a></h4>
+    <p>Marking guide built on CrownPrint: detects canopy strata from plot tallies and sets residual basal area targets.</p>
+    <div class="repo-meta"><span>Shiny app</span></div>
+  </div>
+  <div class="repo-card">
+    <h4><a href="https://glc5xc-mike-premer.shinyapps.io/ctrn/">Commercial Thinning Support Tool</a></h4>
+    <p>CFRU prototype comparing thinning prescriptions against no action for Maine spruce-fir.</p>
+    <div class="repo-meta"><span>Shiny app</span></div>
   </div>
 </div>
 ```
