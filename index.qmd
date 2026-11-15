@@ -3,12 +3,21 @@ title: ""
 page-layout: full
 ---
 
-::: {.hero}
+```{=html}
+<div class="banner" role="img" aria-label="Mountain view over regenerating spruce-fir and tamarack in fall"></div>
+```
+
+:::: {.hero-row}
+::: {.hero-photo}
+![](assets/img/mike-field.jpg){fig-alt="Mike Premer standing in a conifer stand wearing a red cruiser vest"}
+:::
+::: {.hero-text}
 # Mike Premer
 [Assistant Professor of Forest Management · School of Forest Resources, University of Maine]{.lead}
-:::
 
 I lead the [Maine Forest Management Laboratory](https://maineforestlab.com), where we combine remote sensing, data science, and operational research to support forest management in a changing Acadian forest. This site collects my open-source software, data tools, and publications.
+:::
+::::
 
 **Research themes**
 
@@ -45,4 +54,4 @@ I lead the [Maine Forest Management Laboratory](https://maineforestlab.com), whe
 </div>
 ```
 
-[See all software →](software.qmd) · [Publications →](publications.qmd)
+[See all software →](software.qmd) · [Publications →](publications.qmd) · [Photos →](gallery.qmd)

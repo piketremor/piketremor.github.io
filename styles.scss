@@ -17,3 +17,15 @@ $font-family-sans-serif: "Source Sans Pro", -apple-system, "Segoe UI", Roboto, s
 .repo-meta { font-size: .8rem; color: #6c757d; }
 .repo-meta span { margin-right: .8rem; }
 #csl-bib-container .csl-entry, .references .csl-entry { margin-bottom: .8rem; }
+
+.banner { height: 260px; margin: -1rem 0 1.5rem; border-radius: 8px;
+  background: url("assets/img/banner.jpg") center/cover no-repeat; }
+.hero-row { display: flex; gap: 2rem; align-items: center; margin-bottom: 1.5rem; }
+.hero-photo { flex: 0 0 220px; }
+.hero-photo img { width: 220px; height: 220px; object-fit: cover; object-position: 50% 30%;
+  border-radius: 50%; box-shadow: 0 2px 10px rgba(0,0,0,.15); }
+.hero-text h1 { font-weight: 700; margin: 0 0 .25rem; }
+.hero-text .lead { color: $secondary; display: block; margin-bottom: .75rem; }
+@media (max-width: 700px) { .hero-row { flex-direction: column; text-align: center; } .banner { height: 160px; } }
+.gallery { columns: 2 320px; column-gap: 1rem; }
+.gallery img { width: 100%; margin-bottom: 1rem; border-radius: 8px; break-inside: avoid; display: block; }

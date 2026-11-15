@@ -1,0 +1,12 @@
+---
+title: "In the field"
+---
+
+```{=html}
+<div class="gallery">
+  <a href="assets/img/mike-field.jpg"><img src="assets/img/mike-field.jpg" alt="Mike Premer in a conifer stand wearing a red cruiser vest" loading="lazy"></a>
+  <a href="assets/img/conifer-stand.jpg"><img src="assets/img/conifer-stand.jpg" alt="Tall conifers over a dense regenerating understory" loading="lazy"></a>
+  <a href="assets/img/mountain-view.jpg"><img src="assets/img/mountain-view.jpg" alt="Mountain view over regenerating forest in fall" loading="lazy"></a>
+  <a href="assets/img/northern-hardwoods.jpg"><img src="assets/img/northern-hardwoods.jpg" alt="Northern hardwood stand with birch in fall color" loading="lazy"></a>
+</div>
+```

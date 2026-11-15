@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - assets/img/
   output-dir: _site
 
 website:
@@ -14,6 +16,8 @@ website:
         text: Software
       - href: publications.qmd
         text: Publications
+      - href: gallery.qmd
+        text: Photos
     right:
       - icon: github
         href: https://github.com/piketremor
